@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+.background-image {
+  background-image: url("../pictures/background.png");
+  /* position: absolute; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100vh;
+  opacity: 90%;
+  /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}
+
+.map {
+  background-image: url("../pictures/map.jpg");
+  /* position: absolute; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100vh;
+  opacity: 100%;
+  /* top: 0; */
+  /* left: 0;
+    right: 0;
+    bottom: 0; */
+}
+.navbar {
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  background-color: rgb(224, 195, 250);
+  /* font-weight: 700; */
+}
+
+.navbar-brand {
+  font-size: 60px;
+  font-weight: 200;
+}
